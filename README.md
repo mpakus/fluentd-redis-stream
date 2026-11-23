@@ -1,5 +1,7 @@
 # fluent-plugin-redis-stream
 
+[![RSpec on main](https://github.com/mpakus/fluentd-redis-stream/actions/workflows/rspec.yml/badge.svg?branch=main)](https://github.com/mpakus/fluentd-redis-stream/actions/workflows/rspec.yml)
+
 A Ruby input plugin for Fluentd that reads log records from a Redis Stream. It lets many application hosts feed one collector. The collector can parse, filter and forward their logs using ordinary Fluentd configuration. Install this gem on the collector. Each host needs a separate shipper that can append records to Redis.
 
 ## How a log reaches New Relic
