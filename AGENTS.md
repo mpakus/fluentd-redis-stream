@@ -7,3 +7,4 @@ This Ruby gem reads logs from Redis Streams into a central Fluentd collector. Th
 - Before changing the event format, Redis reader or acknowledgement timing, read the [architecture and delivery contract](docs/architecture.md).
 - Follow the [implementation and verification guide](docs/implementation.md). Test recovery with real Redis and Fluentd and reconcile the destination against the original Redis entry IDs.
 - When configuring the collector or switching shippers, use the [operations guide](docs/operations.md). New Relic credentials belong to the output on the collector.
+- When a task is complete, merge its changes into `main`, delete the merged task branch locally and on GitHub, and push `main` to GitHub.
