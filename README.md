@@ -80,3 +80,9 @@ The default Redis URL is `redis://127.0.0.1:6379/0`. Set `TEST_REDIS_URL` to tes
 - [Architecture and delivery contract](docs/architecture.md) explains the record format, event time, pending entries and replay.
 - [Collector operations](docs/operations.md) lists every input parameter and shows a file-buffered New Relic configuration, monitoring and cutover.
 - [Implementation and verification](docs/implementation.md) describes the read loop, the crash tests and the results of the staging delivery check.
+
+## Author
+
+Renat "MpaK" Ibragimov
+
+[Made in Austin ✩ Texas](https://aomega.co/)
